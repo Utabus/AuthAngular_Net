@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\New folder\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj": {}
+    "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\Gitcode\\AuthAngular_Net\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\New folder\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj": {
+    "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\Gitcode\\AuthAngular_Net\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\New folder\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj",
+        "projectUniqueName": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\Gitcode\\AuthAngular_Net\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj",
         "projectName": "AngularAuthAPI",
-        "projectPath": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\New folder\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj",
+        "projectPath": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\Gitcode\\AuthAngular_Net\\AngularAuthAPI\\AngularAuthAPI\\AngularAuthAPI.csproj",
         "packagesPath": "C:\\Users\\SV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\New folder\\AngularAuthAPI\\AngularAuthAPI\\obj\\",
+        "outputPath": "C:\\Users\\SV\\Desktop\\DuAnCaNhan\\code thue\\Gitcode\\AuthAngular_Net\\AngularAuthAPI\\AngularAuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
